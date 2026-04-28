@@ -31,3 +31,8 @@ On configure la base donnée et on accede à adminer après authentification
 
 ![alt text](images/image-6.png)
 ![alt text](images/image-7.png)
+
+## Étape 9 :Publier l'image sur Dockerhub
+
+![alt text](images/image-8.png)
+lien vers l'image:https://hub.docker.com/repository/docker/mohamedaminenamasse/unit_symfony-app/general
