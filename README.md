@@ -26,3 +26,8 @@ on lance docker-compose via la commande docker-compose up --build et on accède 
 On configure la base donnée et on accede à adminer après authentification
 ![alt text](images/image-4.png)
 ![alt text](images/image-5.png)
+
+## Étape 8 :On crée une entité Product
+
+![alt text](images/image-6.png)
+![alt text](images/image-7.png)
