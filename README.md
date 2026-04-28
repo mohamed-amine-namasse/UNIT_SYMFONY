@@ -34,8 +34,8 @@ On configure la base donnée et on accede à adminer après authentification
 
 ## Étape 9 :Publier l'image sur Dockerhub
 
-Il faut s’identifier sur le Docker Hub : docker login
-![alt text](images/image-8.png)
+Il faut s’identifier sur le Docker Hub :
+docker login ![alt text](images/image-8.png)
 Il faut mettre un tag: docker tag mon-image-symfony mohamedaminenamasse/unit_symfony-app
 et apres on push vers Dockerhub avec: docker push
 ![alt text](images/image-9.png)
