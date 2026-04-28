@@ -22,3 +22,7 @@ composer -V
 
 on lance docker-compose via la commande docker-compose up --build et on accède au localhost:8080
 ![alt text](images/image-3.png)
+
+On configure la base donnée et on accede à adminer après authentification
+![alt text](images/image-4.png)
+![alt text](images/image-5.png)

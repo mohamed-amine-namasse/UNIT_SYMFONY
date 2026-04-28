@@ -23,7 +23,7 @@ services:
     image: postgres:${POSTGRES_VERSION:-16}-alpine
     environment:
       POSTGRES_DB: ${POSTGRES_DB:-app}
-      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-!ChangeMe!}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-root}
       POSTGRES_USER: ${POSTGRES_USER:-app}
     healthcheck:
       test:
@@ -40,6 +40,13 @@ services:
       start_period: 60s
     volumes:
       - database_data:/var/lib/postgresql/data:rw
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - "8081:8080" # On lie le port 8081 de ton PC au port 8080 interne d'Adminer
+    depends_on:
+      - database
 ###< doctrine/doctrine-bundle ###
 
 volumes:
