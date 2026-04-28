@@ -1,5 +1,5 @@
 services:
-  # Votre service PHP (l'application)
+  #  service PHP (l'application)
   app:
     build: .
     volumes:
@@ -44,7 +44,7 @@ services:
     image: adminer
     restart: always
     ports:
-      - "8081:8080" # On lie le port 8081 de ton PC au port 8080 interne d'Adminer
+      - "8081:8080"
     depends_on:
       - database
 ###< doctrine/doctrine-bundle ###
