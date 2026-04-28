@@ -36,8 +36,10 @@ On configure la base donnée et on accede à adminer après authentification
 
 Il faut s’identifier sur le Docker Hub :
 docker login ![alt text](images/image-18.png)
+
 Il faut mettre un tag: docker tag mon-image-symfony mohamedaminenamasse/unit_symfony-app
 et apres on push vers Dockerhub avec: docker push
 ![alt text](images/image-9.png)
+
 ![alt text](images/image-10.png)
 lien vers l'image:https://hub.docker.com/repository/docker/mohamedaminenamasse/unit_symfony-app/general
